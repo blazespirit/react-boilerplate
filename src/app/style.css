@@ -1,0 +1,36 @@
+:root {
+    font-family: Roboto, sans-serif;
+    user-select: none;
+}
+
+body {
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+/* Override default grommet style */
+#header .grommetux-select__control svg {
+    background-color: #865cd6 !important;
+}
+
+#header .grommetux-select__input {
+    font-size: 1.5rem !important;
+    padding: 5px 20px !important;
+}
+
+#header .grommetux-select {
+    width: 60ch;
+}
+
+#listFilter .grommetux-select__control svg {
+    display: none;
+}
+
+#listFilter .grommetux-select__input {
+    font-size: 0.9rem !important;
+    padding: 3px 5px !important;
+}
+
+#listFilter .grommetux-select {
+    width: 10ch;
+}
